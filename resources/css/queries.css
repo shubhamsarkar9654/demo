@@ -1,0 +1,156 @@
+@media only screen and (max-width:1440px) {
+    .top,
+    .bottom {
+        display: none;
+    }
+
+    .app {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 30vw 1fr;
+    }
+
+    .contacts {
+        height: 83.5vh;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        flex: 0;
+    }
+
+    .group-name {
+        max-width: 12vw; 
+    }
+}
+
+@media only screen and (max-width:1260px) {
+    .app {
+        grid-template-columns: 35vw 1fr;
+    }
+
+    .search-bar {
+        display: flex;
+        padding: 0.9vw 2.5vw;
+        position: relative;
+    }
+
+    .search-bar img {
+        top: 1.8vw;
+    }
+
+    .search-bar input{
+        padding: 0.8vw 1vw 0.8vw 4.5vw;
+    }
+
+    .group-name {
+        max-width: 11vw; 
+    }
+
+}
+
+@media only screen and (max-width:900px) {
+    .app {
+        grid-template-columns: 41vw 1fr;
+    }
+
+    .search-bar {
+        padding: 1.02rem 3.5rem;
+    }
+
+    .search-bar img {
+        top: 2.4vw;
+    }
+
+    .search-bar input{
+        padding: 1vw 1vw 1vw 6vw;
+    }
+
+    .contact-name
+    .group-name {
+        font-size: 1.25;
+        max-width: 12rem;
+    }
+
+    .chat-message,
+    .chat-message-typing {
+        font-size: 1.2rem;
+    }
+
+    .sidebar-header-icons img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .sidebar-header-icons img:nth-child(2) {
+        margin: 0 2rem;
+        width: 2.1rem;
+        height: 2.1rem;
+    }
+
+    .top-chat {
+        width: 100%;
+        border-bottom: none;
+        padding: 0;
+    }
+
+    .top-chat h1 { 
+        font-family: San Francisco;
+        letter-spacing: 0.08vw;
+        font-size: large;
+        margin-bottom: 8px;
+    }
+
+    .top-chat p,
+    .bottom-chat p {
+        width: 60%;
+        font-size: small;
+    }
+
+    .top-chat width {
+        width:40rem;
+    }
+
+    .top-chat img {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .bottom-chat {
+        border-top: 1px solid rgba(0,0,0,0.1);
+        width: 100%;
+        height: 100;
+    }
+
+    .group-name {
+        max-width: 11vw; 
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .main {
+        display: none;
+    }
+
+    .sidebar {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .search-bar {
+        padding: 1.5rem 5rem;
+    }
+
+    .search-bar img {
+        display: none;
+    }
+
+    .search-bar input{
+        padding: 1.2rem;
+    }
+}
+
+
