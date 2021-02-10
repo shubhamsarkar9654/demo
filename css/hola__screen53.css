@@ -1,0 +1,79 @@
+/* font family */
+
+@font-face {
+    font-family: SF-UI-Text-Medium, sans-serif;
+    src: url(../font/SF-UI-Text-Medium.ttf);
+}
+
+@font-face {
+    font-family: segoeui-Regular, sans-serif;
+    src: url(../font/segoeui.ttf);
+}
+
+@font-face {
+    font-family: SF-UI-Text-Medium, sans-serif;
+    src: url(../font/SF-UI-Text-Medium.ttf);
+}
+
+@font-face {
+    font-family: segoeui-Bold, sans-serif;
+    src: url(../font/segoeuib.ttf);
+}
+
+@font-face {
+    font-family: segoeui-SemiBold, sans-serif;
+    src: url(../font/seguisb.ttf);
+}
+
+@font-face {
+    font-family: segoeui-Light, sans-serif;
+    src: url(../font/segoeuil.ttf);
+}
+
+
+/* global css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* chat__info__Section */
+.chat__list__sear__bx {
+    height: 3.38541666666666vw;
+    background: #ffffff;
+}
+
+.chat__list__sear__bx input{
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.chat__lst__itm__sec {
+    height: calc(100vh - 175px);
+    background: #ffffff;
+}
+
+.lst__itm {
+    height: 4.2708333333333vw;
+    border-bottom: 1px solid rgba(0, 0 , 0 , 0.1);
+}
+
+.extra__txt,
+.grn,.blu {
+    font-size: 0.92vw;
+    font-family: segoeui-Regular;
+}
+
+.date,
+.extra__txt {
+    color: #A2A2A2;
+}
+
+.grn {
+    color: #20D882;
+}
+
+.blu{
+    color: #0088FF;
+}
