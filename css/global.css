@@ -23,6 +23,21 @@
     font-family: Poppins-Regular;
 }
 
+.input__bor {
+    border-color: #ff3a59;
+   
+}
+
+.pr__pk {
+    background-color: #ff3a59;
+    border-color: #ff3a59;
+}
+
+.out__pk {
+    color: #ff3a59;
+    border-color: #ff3a59;
+}
+
 .table__text {
     font-size: 0.8rem;
     cursor: pointer;
@@ -42,4 +57,17 @@
 .hash__head__txt {
     font-weight: 400;
     font-family: Poppins-Regular;
+}
+
+.active_pk {
+    background: #ff3a59;
+}
+
+.card__text {
+    font-family: Poppins-Regular;
+
+}
+
+.pagn__txt {
+    color: #ff3a59;
 }
