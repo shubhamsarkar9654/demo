@@ -65,6 +65,11 @@ body {
     background-color: #ff3a59;
 }
 
+.danger__img {
+    width: 2.34375vw;
+    height: 2.083333vw;
+}
+
 .pagn__txt {
     color: #000;
 }
