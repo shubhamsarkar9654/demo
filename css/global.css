@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Poppins-Regular;
+}
+
 .main__container {
     background: #f3f4f5
 }
@@ -20,7 +24,6 @@
     font-size: 2rem; 
     font-weight: 300;
     line-height: 1.2;
-    font-family: Poppins-Regular;
 }
 
 .input__bor {
@@ -42,7 +45,6 @@
     font-size: 0.8rem;
     cursor: pointer;
     color: #ff3a59;
-    font-family: Poppins-Regular;
 }
 
 .table__text:hover {
@@ -56,16 +58,10 @@
 
 .hash__head__txt {
     font-weight: 400;
-    font-family: Poppins-Regular;
 }
 
 .active_pk {
     background: #ff3a59;
-}
-
-.card__text {
-    font-family: Poppins-Regular;
-
 }
 
 .pagn__txt {
