@@ -1,0 +1,138 @@
+/* font family */
+
+@font-face {
+    font-family: SF-UI-Text-Medium, sans-serif;
+    src: url(../font/SF-UI-Text-Medium.ttf);
+}
+
+@font-face {
+    font-family: segoeui-Regular, sans-serif;
+    src: url(../font/segoeui.ttf);
+}
+
+@font-face {
+    font-family: SF-UI-Text-Medium, sans-serif;
+    src: url(../font/SF-UI-Text-Medium.ttf);
+}
+
+@font-face {
+    font-family: segoeui-Bold, sans-serif;
+    src: url(../font/segoeuib.ttf);
+}
+
+@font-face {
+    font-family: segoeui-SemiBold, sans-serif;
+    src: url(../font/seguisb.ttf);
+}
+
+@font-face {
+    font-family: segoeui-Light, sans-serif;
+    src: url(../font/segoeuil.ttf);
+}
+
+
+/* global css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.chat__list__Section {
+    background-color: #f1f1f1;
+    box-shadow: 10px 0px 10px #0000000D;
+}
+
+.profile__arw {
+    background-color: #fff;
+    height: 3.385416666666vw;
+}
+
+.profile__arw__img {
+    width: 0.729166666666vw;
+    height: 1.25vw;
+}
+
+.profile__arw__txt {
+    font-size: 1.302083333333vw;
+    font-family: segoeui-Regular;
+}
+
+.add__prfl__sec {
+    height: 16.40625vw;
+    position: relative;
+
+}
+
+.cmr__img {
+    left: -1vw;
+    top: -2.4vw;
+    position: absolute;
+    z-index: 999;
+    width: 1.944270833333vw;
+    height: 1.458333333vw;
+}
+
+.prf__txt {
+    top: 0vw;
+    left: -3.2vw;
+    z-index: 999;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: segoeui-Regular;
+    font-size: 1vw;
+    width: 6.35416666666vw;
+    position: absolute;
+}
+
+.man__img {
+    position: absolute;
+    z-index: 2;
+    left: -2.05vw;
+    top: -2.5vw;
+    width: 4.0390625vw;
+    height: 5.3098958333333vw;
+}
+
+.prfl__img {
+    left: -6vw;
+    top: -6vw;
+    z-index: 1;
+    position: absolute;
+    width: 12.2395833333vw;
+    height: 12.2395833333vw;
+}
+
+.your__name__sec {
+    /* height: 11.40625vw; */
+    background-color: #fff;
+}
+
+.yur__nme__titl {
+    color: #3FAE7A;
+    font-weight: 600;
+    font-size: 1.3020833333333vw;
+    font-family: segoeui-SemiBold;
+}
+
+.yur__nme {
+    font-size: 1.3020833333333vw;
+    font-family: segoeui-Regular;
+}
+.yur__nme__pen {
+    width: 1.25vw;
+    height: 1.25vw;
+}
+
+.yur__nme__about__txt {
+    color: #A2A2A2;
+    width: 26.625vw;
+    font-size: 1.041666666667vw;
+    font-family: segoeui-Regular;
+}
+
+.about__sec {
+    height: 6.666666666vw;
+    background-color: #fff;
+}
+
