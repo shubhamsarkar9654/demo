@@ -12,10 +12,26 @@
 }
 
 body {
-    font-family: Poppins-Regular;
+    font-family: 'Poppins', sans-serif;
     background: #f3f4f5
 }
 
+.input__bor::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-size: 14px !important;
+    opacity: 1; /* Firefox */
+}
+  
+.input__bor:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 14px !important;
+}
+  
+.input__bor::-ms-input-placeholder { /* Microsoft Edge */
+    font-size: 14px !important;
+}
+
+.main__container {
+    background: #f3f4f5
+}
 
 .titl__txt {
     color: #2e384d;
@@ -24,10 +40,6 @@ body {
     line-height: 1.2;
 }
 
-.input__bor {
-    border-color: #ff3a59;
-   
-}
 
 .pr__pk,
 .pr__pk:hover {
@@ -39,7 +51,7 @@ body {
 .out__pk:hover {
     color: #ff3a59;
     border-color: #ff3a59;
-    background: #fff;
+    background-color: #ffffff !important;
 }
 
 .table__text {
@@ -59,6 +71,7 @@ body {
 
 .hash__head__txt {
     font-weight: 400;
+    font-size: 0.8rem;
 }
 
 .active_pk {
