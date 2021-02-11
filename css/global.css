@@ -31,14 +31,17 @@ body {
    
 }
 
-.pr__pk {
+.pr__pk,
+.pr__pk:hover {
     background-color: #ff3a59;
     border-color: #ff3a59;
 }
 
-.out__pk {
+.out__pk,
+.out__pk:hover {
     color: #ff3a59;
     border-color: #ff3a59;
+    background: #fff;
 }
 
 .table__text {
