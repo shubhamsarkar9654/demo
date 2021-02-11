@@ -61,9 +61,10 @@ body {
 }
 
 .active_pk {
-    background: #ff3a59;
+    color: #fff;
+    background-color: #ff3a59;
 }
 
 .pagn__txt {
-    color: #ff3a59;
+    color: #000;
 }
