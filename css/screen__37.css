@@ -40,12 +40,13 @@
 
 .chat__list__Section {
     background-color: #f1f1f1;
-    box-shadow: 10px 0px 10px #0000000D;
+    box-shadow: 2px 0px 10px #0000000D;
 }
 
 .profile__arw {
     background-color: #fff;
     height: 3.385416666666vw;
+    box-shadow: 0px 2px 5px #0000001A;
 }
 
 .profile__arw__img {
