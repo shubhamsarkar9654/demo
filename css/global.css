@@ -237,13 +237,13 @@ body{
     /* max-width: 460px; */
     /* width: 350px;
     width: 450px; */
-    width: calc(100vw / 3);
+    /* width: calc(100vw / 3); */
 }
 
 .chat__info__Section{
     width: 31.25vw;
     background-color: #f1f1f1;
-    width: calc(100vw / 4);
+    /* width: calc(100vw / 4); */
 }
 
 .chat__list__hdr__sec{
@@ -946,7 +946,71 @@ body{
     background-color: #ffffff;
 }
 
+.search__date{
+    color: #A2A2A2;
+    font-size: 0.93vw;
+    margin: 0;
+}
+
+.search__usr__sent{
+    font-size: 1.04vw;
+    color: #20D882;
+}
+
+.search__usr__sent__msg{
+    font-size: 1.04vw;
+    color: #0088FF;
+    font-family: segoeui-SemiBold, sans-serif;
+}
+
+.search__task{
+    font-size: 1.04vw;
+    color: #A2A2A2;
+}
+
 /* search__message__input */
+
+/* scroll__down */
+
+.scroll__down {
+    position: fixed;
+    z-index: 9;
+    bottom: 15%;
+    right: 5%;
+}
+
+.scroll__down__img {
+    width: 3.12vw;
+    height: 3.12vw;
+}
+
+/* scroll__down */
+
+/* attach__clip__dropdown__menu */
+
+.attach__clip__dropdown__menu{
+    background: transparent !important;
+    border-color: transparent !important;
+    min-width: unset !important;
+    left: -10px !important;
+    transform: translate3d(0px, -350px, 0px) !important;
+}
+
+.attach__clip__dropdown__menu .dropdown-item {
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.attach__clip__dropdown__menu .dropdown-item:last-child {
+    margin: 0;
+}
+
+.atch__clip__img{
+    width: 3.12vw;
+    height: 3.12vw;
+}
+
+/* attach__clip__dropdown__menu */
 
 
 
